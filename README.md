@@ -2,7 +2,7 @@
 
 > A fully offline, browser-based PDF & document utility. No uploads. No server. No data leaves your machine.
 
-**🔗 Live Demo:** `https://github.com/rajathchannasetty-sys/Advanced-PDF-Document-Utility-Offline-Edition`
+**🔗 Live Demo:** `https://rajathchannasetty-sys.github.io/Advanced-PDF-Document-Utility-Offline-Edition/`
 
 ---
 
