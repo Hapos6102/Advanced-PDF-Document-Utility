@@ -37,7 +37,7 @@ Instead, report it privately:
 2. Click **"Report a vulnerability"**
 3. Fill in the details
 
-Or email directly: `your-email@example.com`
+Or email directly: `rajath.channasetty@gmail.com`
 
 **Please include:**
 - Description of the vulnerability
